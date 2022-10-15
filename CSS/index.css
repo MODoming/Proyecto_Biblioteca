@@ -6,3 +6,115 @@ body{
     font-size: 1.1em;
 }
 
+main{    
+    color: white;
+}
+
+header{ 
+    width: 100%; 
+    align-items: center;
+    top: 0px;        
+    position: fixed;
+}
+
+/* sector para el footer*/
+footer{   
+    width: 100%; 
+    align-items: center;
+    top: 0px;        
+    position: relative;
+    background-color: black;
+}
+footer div{   
+    width: 75%;
+    margin: 0px auto;
+    display: flex;    
+    padding: 1em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer p{    
+    display: inline;
+    padding: 0em 0.5em;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0em auto;
+    font-size: 0.75em;       
+    font-weight: bold;
+}
+footer img{        
+    display: inline;
+    width: 1.5em;
+    margin: auto;
+    padding: 0em 0.25em;    
+    vertical-align: middle;
+    background: none;
+}
+
+/* sector responsivo */
+@media screen and (max-width:1036px){
+    body{
+        width: auto;
+    }
+    nav{
+        width: 100%;
+        text-align: right;
+    }
+    .menu ul li:after{
+        content:" ↩"
+    }
+    .navegar{
+        display: block;
+        cursor: pointer;
+    }
+    .navegar:hover{     
+        border-radius: 5px;
+        background-color: burlywood;
+        text-decoration: underline;
+    }
+    .menu ul{
+        display: none;
+    }
+    .menu ul.show{
+        display: block;
+    }
+    .menu ul li{
+        display: block;
+        padding: 0.5em 0em;
+        flex-wrap: wrap;
+    }
+    footer div{   
+        width: 90%;
+    }
+    .contenido-baner, .estudios, .habilidad, .proyecto, .contacto{
+        margin: 2em 1em;
+    }    
+}
+
+@media screen and (max-width:839px){    
+    .proyectos-img div{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:480px){
+    .foto-perfil{
+        float:initial;
+        align-content: center;
+        margin: 0px 30px 30px 30px;
+    }
+    #habilidades img{
+        margin: 1em auto;
+    }
+    .navegar{
+        width: 100%;
+        text-align: right;
+        margin-top: 5px;
+    }
+    .cabecera{
+        flex-wrap: nowrap;
+    }
+    .proyectos-img p{ 
+        height: 25em;
+    }
+}
