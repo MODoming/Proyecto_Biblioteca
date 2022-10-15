@@ -10,10 +10,18 @@ Lucid DER: https://lucid.app/lucidchart/756da8ec-0469-4912-9d60-fe22f1396e7c/edi
 Lucid MER: https://lucid.app/lucidchart/7a32a234-402e-4a0c-8caa-981387d709b8/edit?viewport_loc=-122%2C-1216%2C2085%2C915%2C0_0&invitationId=inv_906fa508-ae99-4a56-bf9d-86cc01f21527
 
 Inetegrantes del proyecto:
-  * Maximiliano Dominguez
-  * 
-  * 
-  * 
-  * 
-  * 
+     Grupo de trabajo “Base de datos de La Banda” 
+
+ Integrantes:
+    * Favio Romero
+    * Alejandra Pucciano
+    * Lucas Kajita
+    * Clara Delrio
+    * Santiago Solano
+    * Maximiliano Domínguez
+    * Blas Giraldes
+
+ Profesor:
+    * Emanuel Alejandro Odstrcil
+
   
