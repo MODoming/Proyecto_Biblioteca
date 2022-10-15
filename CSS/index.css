@@ -1,0 +1,8 @@
+/* sector para el body */
+body{
+    width: 100%;
+    font-family: 'Kufam', sans-serif;
+    background-attachment: fixed;
+    font-size: 1.1em;
+}
+
